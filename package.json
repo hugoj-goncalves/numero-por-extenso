@@ -2,13 +2,14 @@
   "name": "eks-numero-por-extenso",
   "version": "1.0.8",
   "description": "Escreve números por extenso, números normais, monetários e porcentagens.",
-  "main": "index.js",
+  "main": "release/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LenonBordini/numero-por-extenso.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "tsc"
   },
   "author": "Lenon Bordini",
   "keywords": [
@@ -22,7 +23,9 @@
   ],
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^12.12.3",
     "assert": "^1.4.1",
-    "mocha": "^5.1.1"
+    "mocha": "^5.1.1",
+    "typescript": "^3.6.4"
   }
 }

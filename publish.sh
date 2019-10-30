@@ -1,5 +1,9 @@
 #!/bin/bash
 
+function build {
+  npm run build
+}
+
 function updateVersion {
     echo "New version change: $newVersion"
     oldVersionValue=$(cat package.json | grep version | grep -oP "\d+[^\"]+")
@@ -21,6 +25,7 @@ fi
 
 git pull origin master
 updateVersion
+build
 
 git status | grep 'nothing to commit'
 if [ $? -eq 1 ]; then

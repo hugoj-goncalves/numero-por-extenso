@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outDir": "./release",
+        "allowJs": true,
+        "target": "es5"
+    },
+    "include": [
+        "index.js",
+        "./lib"
+    ]
+}
