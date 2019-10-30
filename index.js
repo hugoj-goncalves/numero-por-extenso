@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     porExtenso: porExtenso,
     estilo: {
         normal: 'normal',
