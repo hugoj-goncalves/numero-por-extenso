@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "build": "tsc"
+    "build": "rm -rf release && tsc"
   },
   "author": "Lenon Bordini",
   "keywords": [
