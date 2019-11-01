@@ -1,6 +1,6 @@
 {
   "name": "eks-numero-por-extenso",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Escreve números por extenso, números normais, monetários e porcentagens.",
   "main": "release/index.js",
   "repository": {
