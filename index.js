@@ -7,8 +7,7 @@ module.exports = {
     }
 };
 
-function porExtenso(numero, estilo, masculino) {
-    masculino = masculino === undefined ? true : masculino;
+function porExtenso(numero, estilo, masculino = true) {
     if (!estilo)
         estilo = 'normal';
 
