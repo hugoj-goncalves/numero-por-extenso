@@ -1,5 +1,5 @@
-import numero from '../index';
-import assert from 'assert';
+const numero = require('../index'),
+    assert = require('assert');
 
 let test = (description, assertTest) => {
     it(description, (done) => {
