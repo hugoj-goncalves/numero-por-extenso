@@ -64,3 +64,9 @@ describe('Issue #1', () => {
         assert.equal(numero.porExtenso('1000090000.00', numero.estilo.monetario), 'um bilhão e noventa mil reais');
     });
 });
+
+describe('10.030,00', () => {
+    test('escrevendo 10.030,00', () => {
+        assert.equal(numero.porExtenso('10030.00', numero.estilo.monetario), 'dez mil e trinta reais');
+    });
+});
