@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "outDir": "./release",
+        "allowJs": true,
+        "target": "es5",
+        "moduleResolution": "node",
+        "module": "commonjs"
+    },
+    "include": [
+        "index.js",
+        "./lib"
+    ]
+}

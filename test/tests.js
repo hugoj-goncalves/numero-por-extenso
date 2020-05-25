@@ -86,6 +86,11 @@ describe('Issue #1', () => {
     });
 });
 
+describe('10.030,00', () => {
+    test('escrevendo 10.030,00', () => {
+        assert.equal(numero.porExtenso('10030.00', numero.estilo.monetario), 'dez mil e trinta reais');
+   });?});
+
 describe('Issue #4', () => {
     test('escrevendo percentuais com zeros a esquerda', () => {
         assert.equal(numero.porExtenso(3.01, numero.estilo.porcentagem), 'três vírgula um centésimo por cento');
