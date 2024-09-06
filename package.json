@@ -23,9 +23,12 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^12.12.3",
-    "assert": "^1.4.1",
-    "mocha": "^5.1.1",
-    "typescript": "^3.6.4"
+    "@types/node": "^18.19.50",
+    "assert": "^2.1.0",
+    "mocha": "^10.7.3",
+    "typescript": "^5.5.4"
+  },
+  "volta": {
+    "node": "18.20.4"
   }
 }

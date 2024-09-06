@@ -2,9 +2,9 @@
     "compilerOptions": {
         "outDir": "./release",
         "allowJs": true,
-        "target": "es5",
+        "target": "ES2022",
         "moduleResolution": "node",
-        "module": "commonjs"
+        "module": "ES2020"
     },
     "include": [
         "index.js",
