@@ -11,6 +11,9 @@
     "test": "mocha",
     "build": "rm -rf release && tsc"
   },
+  "files": [
+    "release"
+  ],
   "type": "module",
   "author": "Lenon Bordini",
   "keywords": [
