@@ -11,6 +11,7 @@
     "test": "mocha",
     "build": "rm -rf release && tsc"
   },
+  "type": "module",
   "author": "Lenon Bordini",
   "keywords": [
     "numero",
@@ -26,6 +27,7 @@
     "@types/node": "^18.19.50",
     "assert": "^2.1.0",
     "mocha": "^10.7.3",
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   },
   "volta": {
