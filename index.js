@@ -15,7 +15,7 @@ const estilosFn = {
 };
 
 export function porExtenso(
-  numero: number,
+  numero,
   estilo = estilos.normal
 ) {
   if (!estilos[estilo])
